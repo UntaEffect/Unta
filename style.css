@@ -25,8 +25,20 @@
   	
  }
 
- button {
- 	width: 200px;
+ .kotak {
+ 	width: 320px;
+ 	height: 70px;
+ 	padding: 15px 0;
+ 	border-radius: 10px;
+ 	background-image: url(packv2.png);
+ 	margin: 5px auto;
+ 	background-repeat: no-repeat;
+  background-size: fill;
+ }
+
+/* button thingy => */
+.btn1 {
+ 	width: 150px;
  	padding: 15px 0;
  	text-align: center;
  	margin: 20px 10px;
@@ -42,7 +54,7 @@
  	transition: 0.5s;
  }
 
- span {
+ .spanbtn1 {
  	background: #00BDFF;
  	height: 100%;
  	width: 0%;
@@ -54,10 +66,10 @@
  	transition: 0.5s;
  }
 
- button:hover span {
+ .btn1:hover span {
 	width: 100%;
  }
 
- button:hover {
+ .btn1:hover {
 	box-shadow: 0px 0px 10px #00BDFF;
  }
